@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/26f3f5328c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Instagabriel</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram mr-1"></i>Instagram</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+          Crear post
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Crea un nuevo post</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Contenido:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="Añade el contenido de tu post aqui">
+                  </div>
+                  <button type="submit" class="btn btn-dark"><i class="fa-solid fa-camera"></i></button>
+                  <button type="submit" class="btn btn-dark"><i class="fa-solid fa-location-dot"></i></button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-success">Publicar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-gear"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Perfil</a>
+            <a class="dropdown-item" href="#">Accesibilidad</a>
+            <a class="dropdown-item" href="#">Privacidad y data</a>
+            <a class="dropdown-item" href="#" style="color: red;">Desconectar</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <ul class="nav nav-pills mb-2 justify-content-center" id="pills-tab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active btn-outline-light" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+        aria-controls="pills-home" aria-selected="true">
+        <i class="fa-solid fa-table-cells"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link btn-outline-light" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+        aria-controls="pills-profile" aria-selected="false">
+        <i class="fa-solid fa-square"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="container">
+        <div class="row p-1">
+          <img
+            src="https://remix86.com/wp-content/uploads/2019/07/retro-synthwave-computer-landscape-palm-trees-shutterstock-1022092345.jpg"
+            alt="" class="col-4">
+          <img
+            src="https://assetsio.reedpopcdn.com/volviendo-a-hotline-miami-articulo-1566510360417.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp"
+            alt="" class="col-4">
+          <img
+            src="https://w0.peakpx.com/wallpaper/862/81/HD-wallpaper-city-walk-alone-artist-artwork-digital-art-synthwave.jpg"
+            alt="" class="col-4">
+        </div>
+        <div class="row p-1">
+          <img
+            src="https://img.freepik.com/fotos-premium/paisaje-verano-retro-digital-montanas-80s-style-synthwave-o-retrowave-ilustracion_692702-10984.jpg"
+            alt="" class="col-4">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6b1ba2da-b57a-4474-a37d-204cd8f362de/df722wl-515300c0-329e-4082-a755-670d5244c310.jpg/v1/fill/w_1280,h_747,q_75,strp/fantasy_landscape_by_skyeithse_df722wl-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzQ3IiwicGF0aCI6IlwvZlwvNmIxYmEyZGEtYjU3YS00NDc0LWEzN2QtMjA0Y2Q4ZjM2MmRlXC9kZjcyMndsLTUxNTMwMGMwLTMyOWUtNDA4Mi1hNzU1LTY3MGQ1MjQ0YzMxMC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.MFt35JIwnHv-OXPJIXoKf6U_IBqa0UaY-NdJe3hdL4w"
+            alt="" class="col-4">
+          <img
+            src="https://static.displate.com/1200x857/displate/2023-03-27/af66d547224d569e655aa2b6c6ae6f91_58bd8ccf2050e60d48cd4919b110f7dd.jpg"
+            alt="" class="col-4">
+        </div>
+        <div class="row p-1">
+          <img
+            src="https://e1.pxfuel.com/desktop-wallpaper/568/271/desktop-wallpaper-fantasy-landscape-epic-landscape.jpg"
+            alt="" class="col-4">
+          <img
+            src="https://e0.pxfuel.com/wallpapers/381/543/desktop-wallpaper-fantasy-landscape-background-epic-landscape.jpg"
+            alt="" class="col-4">
+          <img
+            src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/02/analisis-elden-ring-2624365.jpg?tf=3840x"
+            alt="" class="col-4">
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="row">
+        <div class="col-8 mx-auto">
+          <div class="card d-flex flex-column max-width-250 mb-3">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <h2 class="d-flex justify-content-start">Mi doggo Dante</h2>
+              <div class="text-muted">05/13</div>
+            </div>
+            <img src="https://img.freepik.com/foto-gratis/retrato-mascota-adorable-aislado_23-2149192354.jpg"
+              alt="My doggo Dante" class="card-img-top img-fluid">
+            <div class="card-footer d-flex justify-content-start align-items-center">
+              <div class="text"><strong>250 likes</strong><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ea, deleniti nam? Eum quaerat dolore alias obcaecati labore corrupti asperiores molestias officia
+                nostrum, eveniet necessitatibus facere at expedita eius temporibus itaque.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-8 mx-auto">
+          <div class="card d-flex flex-column max-width-250 mb-3">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <h2 class="d-flex justify-content-start">La grandeza de Canadá</h2>
+              <div class="text-muted">05/13</div>
+            </div>
+            <img
+              src="https://cdn.naturettl.com/wp-content/uploads/2020/02/05200812/12-best-landscape-photography-locations-in-canada-1200x900-cropped.jpg"
+              alt="Canada's Grandeur" class="card-img-top img-fluid">
+            <div class="card-footer d-flex justify-content-start align-items-center">
+              <div class="text"><strong>250 likes</strong><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ea, deleniti nam? Eum quaerat dolore alias obcaecati labore corrupti asperiores molestias officia
+                nostrum, eveniet necessitatibus facere at expedita eius temporibus itaque.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-8 mx-auto">
+          <div class="card d-flex flex-column max-width-250 mb-3">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <h2 class="d-flex justify-content-start">Vamo' Messi</h2>
+              <div class="text-muted">05/13</div>
+            </div>
+            <img src="https://i.pinimg.com/originals/48/3c/d0/483cd0fd59c87b256e1bcfb49c371040.png" alt="Vamo' Messi"
+              class="card-img-top img-fluid">
+            <div class="card-footer d-flex justify-content-start align-items-center">
+              <div class="text"><strong>250 likes</strong><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ea, deleniti nam? Eum quaerat dolore alias obcaecati labore corrupti asperiores molestias officia
+                nostrum, eveniet necessitatibus facere at expedita eius temporibus itaque.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
